@@ -67,6 +67,10 @@ $(call soong_config_set_bool,livedisplay_sysfs,enable_ab,true)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint-blairpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint-blairpro.json
 
+# Lineage Health
+$(call soong_config_set,lineage_health,fast_charge_node,/sys/class/qcom-battery/restrict_chg)
+$(call soong_config_set,lineage_health,fast_charge_value_none,1)
+$(call soong_config_set,lineage_health,fast_charge_value_fast_charge,0)
 
 # NFC
 PRODUCT_PACKAGES += \
