@@ -107,4 +107,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-$(call inherit-product, vendor/motorola/motocamera/motocamera.mk)
+
+# Overlay Derp Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
+DERPFEST_BUILD_TYPE := unofficial
+DERPFEST_BUILD_VARIANT := Stable
