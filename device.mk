@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     LineageApertureAppDevice \
     ProductFrameworksResDevice \
     SystemUIResDevice \
+    SettingsResDevice \
     WifiResDevice \
     WifiResDeviceXT2363-8 \
     WifiResDeviceXT2363-9
@@ -70,6 +71,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
+
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 DEVICE_SKUS := b d
 
