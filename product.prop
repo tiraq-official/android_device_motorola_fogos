@@ -10,3 +10,13 @@ ro.mot.build.customerid=global
 
 # SKU specific properties
 import /product/etc/hardware.sku.${ro.boot.hardware.sku}.prop
+
+# MistOS
+ro.mist.display=720 x 1600, 120 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Snapdragon® 695
+ro.mist.camera=50MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM6375
+ro.mist.screen=6.5' IPS LCD
+ro.mist.device.name=Motorola G34/G45 5G
