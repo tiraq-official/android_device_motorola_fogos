@@ -26,3 +26,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-8 4be56-0d815a release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-8/4be56-0d815a:user/release-keys \
     DeviceProduct=fogos_g
+
+# Axion Stuff
+TARGET_ENABLE_BLUR := true
+AXION_CAMERA_REAR_INFO := 50,2
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER := tiraq
+AXION_PROCESSOR := Snapdragon_6s_Gen_3
+
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+
+# Heavy app handling mode
+# 0 - Disable heavy app classification
+# 1 - Enable dynamic detection (based on frame duration and buffer load)
+# 2 - Treat all apps as heavy for performance
+persist.sys.perf.scroll_opt.heavy_app = 2
