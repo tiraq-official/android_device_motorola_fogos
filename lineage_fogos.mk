@@ -26,3 +26,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-8 4be56-0d815a release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-8/4be56-0d815a:user/release-keys \
     DeviceProduct=fogos_g
+
+# MISTOS
+MISTOS_MAINTAINER := "tiraq"
+MIST_BUILD_TYPE := UNOFFICIAL
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
