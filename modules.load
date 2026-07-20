@@ -1,3 +1,11 @@
+ax_thread_snooper.ko
+ax_affinity_guard.ko
+ax_boost.ko
+ax_atcm.ko
+ax_frame_boost.ko
+ax_burst_sched.ko
+ax_binder_ux.ko
+ax_binder_obs.ko
 swr_dlkm.ko
 fs1815_dlkm.ko
 apr_dlkm.ko
