@@ -42,3 +42,5 @@ persist.sys.perf.scroll_opt = true
 # 1 - Enable dynamic detection (based on frame duration and buffer load)
 # 2 - Treat all apps as heavy for performance
 persist.sys.perf.scroll_opt.heavy_app = 2
+
+TARGET_INCLUDE_AXFX := true
