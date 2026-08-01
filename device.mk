@@ -99,3 +99,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
 $(call inherit-product, vendor/motorola/MotCamera4/motcamera4.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
