@@ -15,14 +15,15 @@ clone_if_missing() {
 }
 
 # Git clones
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "evox" "device/motorola/fogos"
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "evox" "device/motorola/sm6375-common"
+clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "lineage-23.2" "device/motorola/fogos"
+clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "lineage-23.2" "device/motorola/sm6375-common"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_fogos.git" "lineage-23.2" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_sm6375-common.git" "lineage-23.2" "vendor/motorola/sm6375-common"
-clone_if_missing "https://github.com/tiraq-official/android_kernel_motorola_sm6375.git" "evox" "kernel/motorola/sm6375"
+clone_if_missing "https://github.com/tiraq-official/android_kernel_motorola_sm6375.git" "lineage-23.2" "kernel/motorola/sm6375"
 
 # Additional repos (unchanged)
 clone_if_missing "https://github.com/tiraq-official/android_hardware_motorola" "lineage-23.2" "hardware/motorola"
 clone_if_missing "https://github.com/JNWSG/hardware_dolby.git" "16.0" "hardware/dolby"
 clone_if_missing "https://github.com/tiraq-official/android_hardware_samsung_slsi_nfc.git" "" "hardware/samsung_slsi/nfc"
 clone_if_missing "https://gitea.com/JNWSG/vendor_motorola_MotCamera4.git" "16.0" "vendor/motorola/MotCamera4"
+clone_if_missing "https://github.com/tiraq-official/packages_apps_ViPER4AndroidFX.git" "v4a" "packages/apps/ViPER4AndroidFX"
