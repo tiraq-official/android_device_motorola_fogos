@@ -28,3 +28,6 @@ vendor.false_touch_quality=38
 
 # Radio
 ro.vendor.radio.imei.sv=20
+
+#blur
+ro.surface_flinger.supports_background_blur=1
