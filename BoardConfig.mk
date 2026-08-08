@@ -52,3 +52,5 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 32
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
+
+BUILD_BROKEN_DUP_RULES := true
