@@ -27,3 +27,4 @@ clone_if_missing "https://github.com/JNWSG/hardware_dolby.git" "16.0" "hardware/
 clone_if_missing "https://github.com/tiraq-official/android_hardware_samsung_slsi_nfc.git" "" "hardware/samsung_slsi/nfc"
 clone_if_missing "https://gitea.com/JNWSG/vendor_motorola_MotCamera4.git" "16.0" "vendor/motorola/MotCamera4"
 clone_if_missing "https://github.com/tiraq-official/packages_apps_ViPER4AndroidFX.git" "v4a" "packages/apps/ViPER4AndroidFX"
+ clone_if_missing "https://github.com/LineageOS/android_vendor_qcom_opensource_libvmmem" "lineage-23.2" "vendor/qcom/opensource/libvmmem"
