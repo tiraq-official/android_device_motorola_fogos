@@ -34,7 +34,7 @@ BOARD_MOT_DP_GROUP_SIZE := 5901385728 # (BOARD_SUPER_PARTITION_SIZE - 4MB)
 BOARD_SUPER_PARTITION_SIZE := 5905580032
 
 #power
-TARGET_TAP_TO_WAKE_NODE := /sys/class/touchscreen/primary/gesture
+#TARGET_TAP_TO_WAKE_NODE := /sys/class/touchscreen/primary/gesture
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
