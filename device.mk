@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SystemUIResDevice \
     SettingsResDevice \
+    LineageSDKResDevice \
     WifiResDevice \
     WifiResDeviceXT2363-8 \
     WifiResDeviceXT2363-9
