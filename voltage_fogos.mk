@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
-# Inherit some common Pixelos stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := custom_fogos
+PRODUCT_NAME := voltage_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -26,3 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-9 43d61-30ef7 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-9/43d61-30ef7:user/release-keys \
     DeviceProduct=fogos_g
+
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
