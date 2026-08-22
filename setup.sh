@@ -15,7 +15,7 @@ clone_if_missing() {
 }
 
 # Git clones
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "17.0" "device/motorola/fogos"
+clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "evo17" "device/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "17.0" "device/motorola/sm6375-common"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_fogos.git" "17.0" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_sm6375-common.git" "17.0" "vendor/motorola/sm6375-common"
