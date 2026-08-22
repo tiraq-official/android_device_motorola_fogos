@@ -26,3 +26,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-9 43d61-30ef7 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-9/43d61-30ef7:user/release-keys \
     DeviceProduct=fogos_g
+
+TARGET_PREBUILT_BCR := true
+WITH_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_ENABLE_BLUR := true
+RISING_MAINTAINER=tiraq
