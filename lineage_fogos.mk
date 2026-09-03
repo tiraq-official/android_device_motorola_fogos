@@ -21,9 +21,9 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g34 5G
 
 EVO_BUILD_TYPE := Unofficial
-WITH_GMS := True
-TARGET_USES_PICO_GAPPS := True
-TARGET_ENABLE_BLUR := True
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
