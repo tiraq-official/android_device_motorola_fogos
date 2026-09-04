@@ -20,6 +20,9 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g34 5G
 
+# Clover assortment
+CLOVER_MAINTAINER := tiraq
+TARGET_ENABLE_BLUR := true
 CLOVER_BUILDTYPE := UNOFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
