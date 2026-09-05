@@ -12,13 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/fogos/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/hertzify/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fogos
+PRODUCT_NAME := hertzify_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g34 5G
+
+
+HERTZIFY_MAINTAINER := tiraq
+HERTZIFY_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
