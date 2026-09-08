@@ -15,17 +15,10 @@ clone_if_missing() {
 }
 
 # Git clones
-<<<<<<< HEAD
 clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "17.0" "device/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "17.0" "device/motorola/sm6375-common"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_fogos.git" "17.0" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_sm6375-common.git" "17.0" "vendor/motorola/sm6375-common"
-=======
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "lunaris" "device/motorola/fogos"
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "lineage-23.2" "device/motorola/sm6375-common"
-clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_fogos.git" "lineage-23.2" "vendor/motorola/fogos"
-clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_sm6375-common.git" "lineage-23.2" "vendor/motorola/sm6375-common"
->>>>>>> 0628907 (added bringup for lunaris)
 clone_if_missing "https://github.com/tiraq-official/android_kernel_motorola_sm6375.git" "lineage-23.2" "kernel/motorola/sm6375"
 
 # Additional repos (unchanged)
