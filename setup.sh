@@ -15,11 +15,11 @@ clone_if_missing() {
 }
 
 # Git clones
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "17.0" "device/motorola/fogos"
-clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "17.0" "device/motorola/sm6375-common"
+clone_if_missing "https://github.com/tiraq-official/android_device_motorola_fogos.git" "derp17" "device/motorola/fogos"
+clone_if_missing "https://github.com/tiraq-official/android_device_motorola_sm6375-common.git" "test" "device/motorola/sm6375-common"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_fogos.git" "17.0" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/tiraq-official/proprietary_vendor_motorola_sm6375-common.git" "17.0" "vendor/motorola/sm6375-common"
-clone_if_missing "https://github.com/tiraq-official/android_kernel_motorola_sm6375.git" "lineage-23.2" "kernel/motorola/sm6375"
+clone_if_missing "https://github.com/tiraq-official/android_kernel_motorola_sm6375.git" "test" "kernel/motorola/sm6375"
 
 # Additional repos (unchanged)
 clone_if_missing "https://github.com/tiraq-official/android_hardware_motorola" "lineage-23.2" "hardware/motorola"
